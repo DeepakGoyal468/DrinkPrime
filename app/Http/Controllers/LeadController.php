@@ -38,7 +38,7 @@ class LeadController extends Controller
         return $this->validate($request, [
             'name' => 'required|max:225',
             'email' => 'required|email',
-            'mobile' => 'required|max:10',
+            'contact' => 'required|max:10',
             'address' => 'required|max:225',
             'area' => 'required|max:225'
         ]);
